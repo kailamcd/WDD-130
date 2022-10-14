@@ -1,5 +1,12 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Slab:wght@500;600;700&family=Patrick+Hand+SC&display=swap');
+
+
 body {
     background-color: #396E94;
+    font-size: 22px;
+    margin: 0;
+    padding: 0;
 }
 
 header {
@@ -12,6 +19,12 @@ header {
     margin: 0 auto;
 }
 
+h2 {
+    margin: 0;
+}
+#logo_link {
+    padding-top: 5px;
+}
 .logo {
     width: 80px;
 }
@@ -24,6 +37,7 @@ nav a {
     text-align: center;
     color: #011936;
     text-decoration: none;
+    padding: 35px;
 }
 
 nav a:hover {
@@ -37,25 +51,37 @@ nav a:hover {
 
 .home-title {
     color: white;
+    font-family: 'Patrick Hand SC', 'Rock Salt', 'Bradley Hand';
+    font-size: 2em;
+    margin-top: 10px;
 }
 
 #hero-msg h1, #hero-msg h4 {
     text-align: center;
+
 }
 
 .icon {
     width: 80px;
+    padding-top: 10px;
 }
 
 .book, .join {
     background-color: #F99D4D;
     color: #011936;
     text-decoration: none;
+    font-family: 'Josefin Slab';
+    font-weight: 700;
+    font-size: 18px;
+    padding: 15px 30px;
+    margin-top: 50px;
+    border-radius: 5px;
 }
 
 .book:hover, .join:hover {
     background-color: white;
     color: #011936;
+
 }
 
 .button-box {
@@ -66,32 +92,64 @@ main section {
     text-align: center;
 }
 
+main section img {
+    box-sizing: border-box;
+}
+
+.card-img {
+    border: 10px solid #011936;
+}
+
+.rivers-card, .camping-card, .rapids-card {
+    margin: 200px;
+    font-family: 'Patrick Hand SC';
+}
+
 #background {
     height: 725px;
     background-color: #adfcf9;
     color: white;
 }
-.msg h2, p {
+.msg h2 {
     color: white;
+    font-family: 'Patrick Hand SC';
+}
+.msg p {
+    color: white;
+    font-family: 'Josefin Slab';
+    font-weight: 500;
+    padding-bottom: 15px;
+
 }
 .msg {
     background-color: #011936;
     color: white;
+    line-height: 1.5em;
+    padding: 35px;
 }
 
 footer {
     background-color: #F99D4D;
     color: #011936;
     font-size: 1.2em;
+    padding: 25px 50px;
+    margin-top: 200px;
+    font-family: 'Patrick Hand SC';
 }
 
 footer a {
     color: #011936;
     text-decoration: none;
+    font-family: 'Josefin Slab';
+    font-weight: 700;
 }
 
 footer a:hover {
     background-color: white;
     color: #011936;
     text-decoration: underline;
+}
+
+footer .social img {
+    padding-top: 15px;
 }
