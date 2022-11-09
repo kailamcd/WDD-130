@@ -46,6 +46,9 @@ nav a {
     color: #011936;
     text-decoration: none;
     padding: 35px;
+    font-family: 'Josefin Slab';
+    font-weight: 700;
+    font-size: 1.2em;
 }
 
 nav a:hover {
@@ -91,7 +94,7 @@ nav a:hover {
     padding-top: 10px;
 }
 
-.book, .join {
+.book, .join, .top {
     background-color: #F99D4D;
     color: #011936;
     text-decoration: none;
@@ -200,7 +203,6 @@ footer {
     color: #011936;
     font-size: 1.2em;
     padding: 25px 50px;
-    margin-top: 200px;
     font-family: 'Patrick Hand SC';
     display: flex;
     justify-content: space-around;
@@ -224,7 +226,97 @@ footer .social img {
     padding-top: 15px;
 }
 
-@media screen and (max-width: 900px) {
+
+/* begin FAQ page css */
+h1 {
+    font-family: 'Patrick Hand SC';
+}
+h3 {
+    font-family: 'Patrick Hand SC';
+}
+#right-bar h5 {
+    font-family: 'Josefin Slab';
+    font-weight: 700;
+    margin-bottom: 10px;
+    margin-top: 0px;
+}
+p {
+    font-family: 'Josefin Slab';
+    font-weight: 500;
+}
+#faq-grid {
+    display: grid;
+    grid-template-columns: 2fr 4fr 2fr;
+}
+#left-questions {
+    background-color: #F99D4D;
+    max-width: 300px;
+    grid-column: 1/2;
+    padding: 20px;
+    font-family: 'Josefin Slab';
+    position: fixed;
+    left: 20;
+    top: 25%;
+}
+#left-questions a {
+    color: #011936;
+}
+#left-questions a:hover {
+    background-color: white;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+#right-bar input[type=text] {
+
+    padding: 6px;
+    float: left;
+    font-family: 'Josefin Slab';
+    font-size: 1em;
+    background-color: white;
+    border: none;
+    width: 60%;
+}
+button {
+    font-family: 'Josefin Slab';
+    font-size: 1em;
+    align-self: center;
+    text-align: center;
+    margin-top: 2px;
+    margin-left: 5px;
+
+
+}
+
+.top {
+    position: fixed;
+    left: 150px;
+    top: 600px;
+    border: 1px solid #011936;
+}
+#full-questions {
+    font-family: 'Josefin Slab';
+    background-color: #011936;
+    color: white;
+    padding-right: 20px;
+    padding-left: 20px;
+    grid-column: 2/3;
+}
+#right-bar {
+    text-align: right;
+    position: fixed;
+    right: 10px;
+    top: 25%;
+}
+#right-bar img {
+    max-width: 360px;
+    border: 2px solid #F99D4D;
+}
+form {
+    background-color: #F99D4D;
+    padding: 10px;
+}
+@media screen and (max-width: 1400px) {
     #hero, .home-grid {
         display: block;
         height: auto;
@@ -263,5 +355,42 @@ footer .social img {
     }
     footer {
         margin-top: 25px;
+    }
+    /* begin FAQ page css */
+    #faq-grid {
+        display: block;
+        width: 100%;
+        align-content: center;
+    }
+    .back-to-top {
+        text-align: center;
+    }
+    #left-questions {
+        position: static;
+        max-width: 100%;
+    }
+
+
+    #full-questions {
+        position: static;
+    }
+    #right-bar {
+        text-align: center;
+        position: static;
+
+
+    }
+    .top {
+        position: fixed;
+        text-align: center;
+        top: 90%;
+        left: auto;
+        height: 20px;
+    }
+    #search {
+        align-content: center;
+        width: 100%;
+        position: fixed;
+        top: 0%;
     }
 }
