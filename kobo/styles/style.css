@@ -1,0 +1,172 @@
+@import url('https://fonts.googleapis.com/css2?family=Autour+One&family=Cinzel+Decorative&family=Quicksand:wght@300;400;600&display=swap');
+
+
+body {
+    background-image: url("../images/kobo\ background.png");
+    background-color: #2D2327;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+#left-bar {
+    grid-column: 1/2;
+    position: fixed;
+    left: 5px;
+    padding: 5px;
+    height: 100%;
+    margin-top: -100px;
+}
+#logo-link {
+    max-width: 110px;
+}
+#logo-link img {
+    max-width: 110px;
+    margin-top: 10px;
+}
+
+#side-nav {
+    padding-top: 5px;
+    padding-left: 5px;
+    height: 100%;
+    width: 110px;
+    background-color: #2D2327;
+    font-family: 'Quicksand';
+
+}
+#side-nav a {
+    color: #D7D6D6;
+    margin-top: 100px;
+}
+
+#side-nav a:hover {
+    width: 100px;
+    color: #C6F91F;
+}
+form {
+    color: #C6F91F;
+}
+
+#search input{
+    max-width: 95px;
+    font-family: 'Quicksand';
+
+}
+
+#newsletter input{
+    max-width: 95px;
+    font-family: 'Quicksand';
+
+}
+
+.socials a:hover {
+    background-color: none;
+    border: none;
+}
+
+.social-icon {
+    border-radius: 50px;
+    max-width: 40px;
+    margin-top: 20px;
+    padding: 2px;
+}
+
+.social-icon:hover {
+    border: 1px solid #C6F91F;
+}
+
+h1 {
+    background-color: #D7D6D6;
+    font-family: 'Autour One';
+    font-size: 1.5em;
+    margin-left: 120px;
+    color: #2D2327;
+}
+
+#hero-section {
+
+    margin-top: 90px;
+}
+
+#hero-imgs {
+    max-width: 800px;
+    display: grid;
+    grid-template-columns:1fr 1fr 1fr;
+    grid-template-rows: 350px;
+    margin-left: 120px;
+    margin-top: -16px;
+    font-family: 'Quicksand';
+}
+#hero-imgs img {
+    max-width: 200px;
+    border: 2px solid #C6F91F;
+}
+
+#hero-imgs img:hover {
+    -webkit-filter: blur(4.5px);
+    filter: blur(4.5px);
+}
+
+
+
+/* main section, hero imgs */
+#marriage-link {
+    grid-column: 1/2;
+    grid-row: 1/2;
+}
+
+#marriage-text {
+    grid-column: 1/2;
+    grid-row: 1/2;
+    background-color: #C6F91F;
+    max-height: 20px;
+    max-width: 200px;
+    z-index: 2;
+    margin-top: 200px;
+    text-align: right;
+}
+
+#career-link {
+    grid-column: 2/3;
+    grid-row: 1/2;
+}
+
+#career-text {
+    grid-column: 2/3;
+    grid-row: 1/2;
+    background-color: #C6F91F;
+    max-height: 20px;
+    z-index: 2;
+    margin-top: 200px;
+    max-width: 200px;
+    text-align: right;
+    
+}
+
+#mind-link {
+    grid-column: 3/4;
+    grid-row: 1/2;
+}
+
+#mind-text {
+    grid-column: 3/4;
+    grid-row: 1/2;
+    background-color: #C6F91F;
+    max-height: 20px;
+    z-index: 2;
+    margin-top: 200px;
+    max-width: 200px;
+    text-align: right;
+}
+
+.reg-p {
+    font-family: 'Quicksand';
+    padding-left: 10px;
+    margin-left: 110px;
+    margin-top: -50px;
+    background-color: #2D2327;
+    color: #D7D6D6;
+    max-width: 800px;
+}
+
+p {
+    font-family: 'Quicksand';
+}
