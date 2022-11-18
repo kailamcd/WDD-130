@@ -128,6 +128,21 @@ main section {
 main section img {
     box-sizing: border-box;
 }
+form {
+    font-family: 'Josefin Slab';
+}
+#feedback {
+    background-color: #011936;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    padding: .5em;
+    display: none;
+}
+.moveDown {
+    margin-top: 3em;
+}
 
 .card-img {
     border: 10px solid #011936;
