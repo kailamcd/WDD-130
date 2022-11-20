@@ -7,23 +7,24 @@ body {
     background-size: cover;
     background-repeat: no-repeat;
 }
-#left-bar {
+.left-bar {
     grid-column: 1/2;
     position: fixed;
+    top: 0;
     left: 5px;
     padding: 5px;
     height: 100%;
-    margin-top: -100px;
+    /* margin-top: -100px; */
 }
-#logo-link {
+.logo-link {
     max-width: 110px;
 }
-#logo-link img {
+.logo-link img {
     max-width: 110px;
-    margin-top: 10px;
+    /* margin-top: 10px; */
 }
 
-#side-nav {
+.side-nav {
     padding-top: 5px;
     padding-left: 5px;
     height: 100%;
@@ -32,12 +33,12 @@ body {
     font-family: 'Quicksand';
 
 }
-#side-nav a {
+.side-nav a {
     color: #D7D6D6;
     margin-top: 100px;
 }
 
-#side-nav a:hover {
+.side-nav a:hover {
     width: 100px;
     color: #C6F91F;
 }
@@ -77,11 +78,10 @@ h1 {
     background-color: #D7D6D6;
     font-family: 'Autour One';
     font-size: 1.5em;
-    margin-left: 120px;
     color: #2D2327;
 }
 
-#hero-section {
+.hero-section {
 
     margin-top: 90px;
 }
@@ -91,7 +91,7 @@ h1 {
     display: grid;
     grid-template-columns:1fr 1fr 1fr;
     grid-template-rows: 350px;
-    margin-left: 120px;
+
     margin-top: -16px;
     font-family: 'Quicksand';
 }
@@ -105,7 +105,27 @@ h1 {
     filter: blur(4.5px);
 }
 
+main {
+    margin-left: 125px;
+}
+.big-p {
+    background-color: #D7D6D6;
+    opacity: 75%;
+    padding: 5px;
+    margin-top: -15px;
+}
 
+.about-pic {
+    opacity: 100%;
+    float: right;
+    margin: 5px;
+}
+
+.bio-pic {
+    height: 300px;
+    float: right;
+    margin: 5px;
+}
 
 /* main section, hero imgs */
 #marriage-link {
@@ -160,13 +180,51 @@ h1 {
 .reg-p {
     font-family: 'Quicksand';
     padding-left: 10px;
-    margin-left: 110px;
+
     margin-top: -50px;
     background-color: #2D2327;
     color: #D7D6D6;
     max-width: 800px;
 }
-
+h4 {
+    font-family: 'Quicksand';
+    font-weight: 700;
+}
+.atlas-pic {
+    max-height: 300px;
+    float: right;
+    margin: 5px;
+}
+.jerk-pic {
+    max-height: 300px;
+    float: left;
+    margin: 5px;
+}
 p {
     font-family: 'Quicksand';
+}
+
+footer {
+    background-color: #2D2327;
+    color: #D7D6D6;
+    font-size: 1.2em;
+    padding: 25px 50px;
+    font-family: 'Quicksand';
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-left: 60px;
+}
+
+footer a {
+    color: #D7D6D6;
+    text-decoration: none;
+    font-family: 'Quicksand';
+
+}
+
+footer a:hover {
+
+    color: #C6F91F;
+    text-decoration: underline;
 }
