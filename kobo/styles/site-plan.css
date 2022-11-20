@@ -8,11 +8,11 @@ Fonts are separated by a | */
   /* change the values below to your colors from your palette */
   --primary-color: #D7D6D6 ;
   --secondary-color: #2D2327 ;
-  --accent1-color: #072AC8;
+  --accent1-color: #2d2327;
   --accent2-color: #C6F91F;
 
   /* change the values below to your chosen font(s) */
-  --heading-font: "Cinzel Decorative", cursive;
+  --heading-font: "Autour One", cursive;
   --paragraph-font: "Quicksand", sans-serif;
 
   /* these colors below should be chosen from among your palette colors above */
@@ -22,7 +22,7 @@ Fonts are separated by a | */
   --paragraph-color-on-color: white; /* paragraph text on a colored background */ 
   --paragraph-background-color: #2D2327  ;
   --nav-link-color: white;
-  --nav-background-color: #072AC8;
+  --nav-background-color: #2d2327;
   --nav-hover-link-color: white;
   --nav-hover-background-color: #2D2327;
 }
@@ -118,7 +118,7 @@ nav {
 nav  {
   list-style-type: none;
   display: flex;
-  font-family: "Cinzel Decorative";
+  font-family: "Quicksand";
 
 }
 nav a {
@@ -183,4 +183,8 @@ nav a:hover {
   grid-area: right;
   border-top: 1px solid;
   border-right: 1px solid;
+}
+
+.home-page-imgs img {
+  max-width: 250px;
 }
