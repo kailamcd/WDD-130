@@ -2,19 +2,28 @@
 
 
 body {
+
     background-image: url("../images/kobo\ background.png");
     background-color: #2D2327;
     background-size: cover;
     background-repeat: no-repeat;
+    max-width: 1200px;
+
 }
-.left-bar {
+
+.page-grid {
+    display: grid;
+    grid-template-columns: 110px 1fr;
+    grid-template-rows: 1fr;
+
+}
+header {
     grid-column: 1/2;
-    position: fixed;
+    grid-row: 1/2;
     top: 0;
     left: 5px;
     padding: 5px;
     height: 100%;
-    /* margin-top: -100px; */
 }
 .logo-link {
     max-width: 110px;
@@ -28,7 +37,7 @@ body {
     padding-top: 5px;
     padding-left: 5px;
     height: 100%;
-    width: 110px;
+    width: 105px;
     background-color: #2D2327;
     font-family: 'Quicksand';
 
@@ -82,7 +91,8 @@ h1 {
 }
 
 .hero-section {
-
+    grid-column: 2/3;
+    grid-row: 1/2;
     margin-top: 90px;
 }
 
@@ -106,13 +116,14 @@ h1 {
 }
 
 main {
-    margin-left: 125px;
+    margin-left: 25px;
 }
 .big-p {
     background-color: #D7D6D6;
     opacity: 75%;
     padding: 5px;
     margin-top: -15px;
+    height: auto;
 }
 
 .about-pic {
