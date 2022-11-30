@@ -222,6 +222,7 @@ h4 {
 
 .title-heart, .title-jerk {
     margin-top: -5px;
+    padding: 3px;
 }
 
 .container-heart {
@@ -229,6 +230,7 @@ h4 {
     grid-row: 2;
     grid-column: 1/2;
     max-width: 200px;
+    padding: 3px;
 }
 
 .info-heart {
@@ -247,7 +249,7 @@ h4 {
 
 .container-jerk {
     position: relative;
-
+    padding: 3px;
     max-width: 200px;
 }
 
@@ -258,6 +260,7 @@ h4 {
     width: 100%;
     height: auto;
     backface-visibility: hidden;
+    padding: 3px;
 }
 
 .middle {
