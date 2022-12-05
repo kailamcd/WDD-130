@@ -93,7 +93,6 @@ h1 {
 .hero-section {
     grid-column: 2/3;
     grid-row: 1/2;
-
 }
 
 .favorites-grid {
@@ -127,13 +126,26 @@ main {
     opacity: 75%;
     margin-top: 100px;
 }
-.big-p {
+
+.about-grid {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr;
+}
+.big-p-1, .big-p-2 {
 
     padding: 5px;
     margin-top: -15px;
     height: auto;
 }
 
+.big-p-1 {
+    grid-row: 1/2;
+}
+
+.big-p-2 {
+    grid-row: 2/3;
+}
 .about-pic {
     opacity: 100%;
     float: right;
