@@ -116,7 +116,6 @@ h1 {
 }
 
 #hero-imgs img:hover {
-    -webkit-filter: blur(4.5px);
     filter: blur(4.5px);
 }
 
